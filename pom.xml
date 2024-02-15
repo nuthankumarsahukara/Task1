@@ -12,6 +12,7 @@
 	<artifactId>16_Emp_System</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>16_Emp_System</name>
+	<packaging>war</packaging>
 	<description>This is crud application</description>
 	<properties>
 		<java.version>17</java.version>
@@ -55,6 +56,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>springboot_project</finalName>
 	</build>
 
 </project>
